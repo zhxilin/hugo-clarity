@@ -1,7 +1,9 @@
 <footer class = 'footer'>
   <div class = 'footer_inner wrap pale'>
     <img src = '{{ absURL "icons/apple-touch-icon.png" }}' class = 'icon icon_2 transparent'>
-    <p>Copyright &copy;&nbsp;<span class = 'year'></span>&nbsp;{{ .Site.Title | upper }}. All Rights Reserved</p>
+    <p>Copyright &copy;&nbsp;<span class = 'year'></span>&nbsp;{{ .Site.Title | upper }}. All Rights Reserved.
+    <span id="busuanzi_container_site_pv"> | Total View <span id="busuanzi_value_site_pv"></span> Times</span>
+    </p>
     {{- partial "top" .}}
   </div>
 </footer>
