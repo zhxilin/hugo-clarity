@@ -23,8 +23,11 @@
     {{- .Content }}
   </article>
   {{- partial "sidebar" . }}
-  <div class="disqus markdown">
+  <!-- <div class="disqus markdown">
     {{ partial "disqus.html" . }}
+  </div> -->
+  <div>
+    {{ partial "gitalk.html" . }}
   </div>
 </div>
 {{- end }}
